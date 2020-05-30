@@ -15,3 +15,8 @@ Para realização do teste, rodamos separadamente cada API, para ter certeza de 
 
 Quando desejar para a execução de um container, execute: 
     docker stop <nameContainer>
+
+
+Para realização dos teste de envio de requisições, foi utilizado o Apache JMeter, o projeto está no repositório.
+
+Importante no JMeter, habilitar somente o teste desejado enviar, deixar todos habilitados todos os testes serão enviados simultaneamente.
