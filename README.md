@@ -13,10 +13,10 @@ Dentro de cada API existe um arquivo .sh para compilar e rodar o projeto. Para i
 
 Para realização do teste, rodamos separadamente cada API, para ter certeza de que as aplicações não utilizaram os recursos da VM simultaneamente.
 
-Quando desejar para a execução de um container, execute: 
+Quando desejar parar a execução de um container, execute: 
     docker stop <nameContainer>
 
 
-Para realização dos teste de envio de requisições, foi utilizado o Apache JMeter, o projeto está no repositório.
+Para realização dos testes de envio de requisições, foi utilizado o Apache JMeter, o projeto está no repositório.
 
-Importante no JMeter, habilitar somente o teste desejado enviar, deixar todos habilitados todos os testes serão enviados simultaneamente.
+Importante no JMeter, habilitar somente o teste que se deseja enviar, ou clicar encima do teste específico e selecionar a opção Start. Se habilitar todos, todos os testes serão enviados simultaneamente, acarretando em uma inconsistência na medição.
